@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+section h3.display-5, section h4.display-6{
+  color: #000;
+  font-size: 2em;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+.user{
+  border: solid #aa1217 2px;
+  color: #aa1217;
+  border-radius: 30px;
+  margin-top: 25px;
+  text-align: center;
+}
+.user:hover{
+  color: #88C23A;
+  border: solid #88C23A 2px;
+  box-shadow: 0px 0px 10px 1px grey;
+  transition: .2s;
+}
+
+.user i{
+  margin: 30px auto;
+}
+.user p{
+  font-size: 2em;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+#formulario{
+  background: url(assets/background-form.jpg);
+  background-size: 400px 600px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: #88C23A 0px 0px 10px 3px;
+  color: #000;
+  margin: 20px auto;
+  padding: 20px;
+  height: 360px;
+  width: 340px;
+  min-width: 340px;
+}
+#formulario form{
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+}
+#formulario legend{
+  color: #000;
+  font-weight: 800;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: #88C23A 5px 5px;
+  margin-bottom: 25px;
+  width: 250px;
+}
+#formulario input{
+  width: 85%;
+  font-size: 1em;
+}
+.formButton{
+  background: url(assets/dourado.jpg);
+  border: solid #88C23A 1px;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.formButton:hover{
+  transform: scale(1.1);
+  transition: 400ms;
+  background: #88C23A;
+}
+.formButton:active{
+  transform: scale(1.01);
+  transition: 0s;
+}
+.voltar{
+  width: 90px;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+.voltar a{
+  color: #aa1217;
+}
+.voltar a:hover{
+  text-decoration: underline;
+}
+
+.opcoes{
+  border: solid #88C23A 1px;
+  box-shadow: #88C23A 0px 0px 10px 3px;
+  border-radius: 15px;
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+.opcoes a{
+  margin-top: 10px;
+}
