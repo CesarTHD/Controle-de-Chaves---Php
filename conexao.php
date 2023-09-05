@@ -2,7 +2,7 @@
     $hostname = 'localhost';
     $bd = 'controlechaves';
     $user = 'root';
-    $pass = 'A36mn453bc4a';
+    $pass = 'xxxx';
 
     $conexao = new MySQLi ($hostname, $user, $pass, $bd);
     
